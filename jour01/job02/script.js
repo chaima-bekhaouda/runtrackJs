@@ -1,2 +1,2 @@
-// Display the text "Hello Javascript!" in the web console
-console.log("Hello Javascript!");
+// Display a pop-up with the text "Hello Javascript!"
+alert("Hello Javascript!");
