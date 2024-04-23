@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        >
+        </script>
+        <script src="connexion.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="title"><b>J-05</b></div>
+            <div id="buttons">
+                <button 
+                    onclick="window.location.href='inscription.html'"
+                >
+                    Inscription
+                </button>
+                <button 
+                    onclick="window.location.href='connexion.html'"
+                >
+                    Connexion
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <div>
+                    <label for="loginEmailInput">E-mail</label>
+                    <input
+                        type="email"
+                        class="email"
+                        id="loginEmailInput"
+                        name="loginEmailInput"
+                    >
+                </div>
+                <div>
+                    <label for="loginPassword">Mot de passe</label>
+                    <input
+                        type="password"
+                        id="loginPasswordInput"
+                        name="loginPasswordInput"
+                    >
+                </div>
+                <div>
+                    <button>Se connecter</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
